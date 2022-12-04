@@ -1,0 +1,432 @@
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'roboto', sans-serif;
+}
+.container{
+    width: 1200px;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.row{
+    display: flex;
+    flex-wrap: wrap;
+}
+img{
+    display: block;
+    max-width: 100%;
+}
+h2{
+    font-size: 30px;
+    color: #566366;
+    font-weight: 400;
+}
+h3{
+    font-size: 22px;
+    color: #566366;
+    font-weight: 700;
+}
+p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #919191;
+}
+a{
+    text-transform: uppercase;
+    text-decoration: none;
+    display: inline-block;
+}
+i{
+    color: #2ecc71;
+}
+/* banner css start */
+#banner{
+    background: url(../image/1.png);
+    height: 931px;
+    background-size: cover;
+    background-position: center;
+}
+#banner .container{
+    height: 100%;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+#banner h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 50px;
+    font-weight: 700;
+    border-top: 2px solid #fff;
+    border-bottom: 2px solid #fff;
+}
+#banner a{
+    font-size: 18px;
+    font-weight: 700;
+    color: #fff;
+    border: 2px solid #fff;
+    margin: 25px;
+    padding: 10px 20px;
+}
+/* banner css end */
+/* nav css start */
+nav{
+    background: #252e30;
+    position: sticky;
+    top: 0;
+     
+}
+nav .container{
+    align-items: center;
+}
+nav .logo{
+    width: 20%;
+}
+nav .menu{
+    width: 80%;
+}
+nav ul{
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+}
+nav a{
+    color: #fff;
+    font-size: 16px;
+    font-weight: 700;
+    padding: 29px 15px;
+    transition: 0.6s;
+}
+nav .menu ul li:hover a{
+    color: #2ecc71;
+    background: #000;
+}
+#vgh .container{
+    padding: 87px 0;
+}
+#vgh .container .info{
+    width: 33.33%;
+}
+#vgh .container h2{
+    color: #566366;
+    font-weight: 400;
+}
+#vgh .container p{
+    width: 352px;
+}
+/* info vgh end */
+/* about css start */
+#about{
+    background: #f1f1f1;
+}
+#about .image{
+    width: 30%;
+}
+#about .about_info{
+    width: 70%;
+    padding: 50px 100px;
+}
+#about .about_info h2{
+    color: #566366;
+    text-transform: uppercase;  
+}
+#about .about_info p{
+    padding: 20px 0;
+}
+#about .about_info .about_item p{
+    padding: 12px 0;
+}
+#about .about_item{
+    width: 50%;
+}
+#about .about_icon{
+    width: 70px;
+}
+#about .about_text{
+    width: calc(100% - 70px);
+}
+/* about css end */
+/* MY SKILL CSS */
+#my_skill{
+    display: flex;
+    flex-wrap: wrap;
+    height: auto;
+    width: 1100px;
+    margin: auto;
+    padding: 90px 0;
+}
+#my_skill .fl{
+    width: 50%;
+}
+#my_skill a{
+    font-size: 18px;
+    color: #2ecc71;
+    border: 2px solid #2ecc71;
+    padding: 21px 37px;
+}
+#my_skill h2{
+    color: #566366;
+    font-weight: 400;
+}
+#my_skill .my_skill_info p{
+    width: 532px;
+    padding: 51px 0;
+}
+#my_skill .my_skill_item h3{
+    color: #566366;
+    font-size: 22px;
+    font-weight: 400;
+    padding: 18px 0;
+}
+#my_skill .my_skill_item .bar .pr{
+    width: 100%;
+    height: 25px;
+    background-color: #f2f2f1;
+}
+#my_skill .my_skill_item .bar .pr p{
+    background-color: #2ecc71;
+    height: 25px;
+    color: #fff;
+    font-size: 18px;
+    text-align: right;
+}
+#my_skill .my_skill_item .bar:first-child .pr p{
+    width: 90%;
+}
+#my_skill .my_skill_item .bar:nth-child(2) .pr p{
+    width: 80%;
+}
+#my_skill .my_skill_item .bar:nth-child(3) .pr p{
+    width: 90%;
+}
+#my_skill .my_skill_item .bar:last-child .pr p{
+    width: 70%;
+}
+/* my skill css end */
+/* resume css end */
+#resume{
+    background-color: #f2f2f1;
+    text-align: center;
+    position: relative;
+}
+#resume::after{
+    position: absolute;
+    content: '';
+    width: 50px;
+    height: 50px;
+    background: #f2f2f1;
+    bottom: -25px;
+    left: 50%;
+    transform: rotate(45deg);
+}
+#resume .resume{
+    padding: 50px 0;
+    width: 65%;
+    margin: auto;
+}
+#resume h2{
+    color: #566366;
+    font-weight: 400;
+}
+#resume p{
+    padding: 50px 0;
+}
+#resume a{
+    color: #2ecc71;
+    font-size: 18px;
+    font-weight: 400;
+    border: 2px solid #2ecc71;
+    padding: 21px 20px;
+    margin: 0 auto;
+}
+/* resume css end */
+/* my education css */
+#my_education .container{
+    padding: 100px 0;
+}
+#my_education .my_education{
+    width: 50%;
+}
+#my_education .my_education p{
+    padding: 50px 0;
+}
+#my_education .course{
+    width: 50%;
+}
+#my_education .course h3{
+    padding: 60px 0 0 0;
+}
+#my_education .course #p{
+    font-size: 18px;
+    font-weight: 400;
+    color: #919191;
+    padding: 10px 0;
+}
+#my_education #grade{
+    color: #fff;
+    font-weight: 700;
+    background-color: #2ecc71;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+#hr{
+    width: 1200px;
+    margin: auto;
+    color: #cccccc;
+}
+/* work experience css start */
+#work_experience .container{
+    padding: 100px 0;
+}
+#work_experience .work_experience{
+    width: 50%;
+}
+#work_experience .years{
+    width: 50%;
+}
+#work_experience .work_experience p{
+    padding: 50px 0;
+}
+#work_experience .years  #duration{
+    color: #fff;
+    font-weight: 700;
+    background-color: #2ecc71;
+    width: 80px;
+    height: 30px;
+    text-align: center;
+}
+#work_experience .years #p{
+    padding: 22px 0;
+}
+/*  work experience css stop */
+#john{
+    background-color: #f2f2f1;
+    height: 280px;
+    text-align: center;
+}
+#john .john p:last-child{
+    font-weight: 700;
+}
+#john .john{
+    height: 280px;
+    padding: 50px 0;
+    width: 65%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+}
+/* portfolio css start */
+#portfolio .text{
+    padding: 100px 0;
+    width: 1200px;
+    margin: auto;
+    text-align: center;
+}
+#portfolio h2{
+    font-weight: 700;
+}
+#portfolio p{
+    padding: 35px;
+}
+#portfolio .portfolio_item{
+    width: calc(100% / 3);
+    padding: 20px;
+    position: relative;
+}
+#portfolio .portfolio_item img{
+    height: 300px;
+    width: 365px;
+}
+#portfolio .portfolio_item .overlay{
+    position: absolute;
+    inset: 20px;
+    background-color: rgb(45, 203, 113, 0.75);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    opacity: 0;
+    visibility: hidden;
+    transition: 0.5s;
+}
+#portfolio .portfolio_item:hover .overlay{
+    opacity: 1;
+    visibility: visible;
+}
+/* form css start */
+form{
+    background-color: #252e30;
+}
+form .container{
+    padding: 80px 0;
+}
+form .container .contact{
+    width: 50%;
+}
+form .container .form{
+    width: 50%;
+}
+form p{
+    padding: 30px 0;
+    width: 80%;
+}
+form .form table{
+    width: 100%;
+}
+form .form td{
+    display: block;
+    color: #fff;
+}
+form .form td input{
+    display: block;
+    width: 80%;
+    height: 40px;
+    background-color: #4b5456;
+    color: #fff;
+    font-size: 22px;
+    margin: 10px 0 25px;
+    border: none;
+}
+form .form textarea{
+    height: 200px;
+    width: 80%;
+    resize: none;
+    background-color: #4b5456;
+    color: #fff;
+    font-size: 22px;
+    border: none;
+    margin: 10px 0 0px;
+}
+form .form button{
+    background-color: #191f21;
+    color: #fff;
+    padding: 10px 19px;
+    font-weight: 700;
+    border: none;
+    margin: 20px 0;
+}
+footer{
+    height: 100px;
+    background-color: #191f21;
+    align-items: center;
+    justify-content: center;
+}
+footer p{
+    display: block;
+    width: 100%;
+    text-align: center;
+}
+footer .footer_link {
+    display: block;
+}
